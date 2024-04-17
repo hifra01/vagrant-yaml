@@ -1,9 +1,0 @@
----
-machines:
-  - name: lorem
-    box: generic/ubuntu2204
-    nics:
-    - type: "private_network"
-      ip_addr: "192.168.100.101"
-    - type: "public_network"
-      ip_addr: "192.168.1.198"

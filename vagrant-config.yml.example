@@ -1,0 +1,13 @@
+---
+machines:
+  - name: master
+    box: generic/ubuntu2204
+    vcpu: "2"
+    ram: "2048"
+    nics:
+    - type: "private_network"
+      ip_addr: "192.168.100.101"
+    # - type: "private_network"
+    #   ip_addr: "dhcp"
+# ssh_public_keys:
+#   - "ssh-rsa ABCD user@ssh"
